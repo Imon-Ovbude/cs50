@@ -29,5 +29,7 @@ int main(void) {
         // move to next row
         printf("\n");
     }
+
+    // go to next line
     printf("\n");
 }
