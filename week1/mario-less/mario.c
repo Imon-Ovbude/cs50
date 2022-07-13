@@ -4,7 +4,12 @@
 
 int main(void) 
 {
-    string name = get_string("What is your name?\n ");
+    int height;
 
-    printf("Hello %s\n", name);
+    do {
+        height = get_int("Enter a number between 1 and 8\n ");
+    } while (height < 1 || height > 8 );
+    
+
+    printf("Stored %i\n", height);
 }
