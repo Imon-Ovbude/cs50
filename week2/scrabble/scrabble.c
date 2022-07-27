@@ -29,7 +29,8 @@ int compute_score(string word)
     int word_points;
    
     for (int i = 0, n = strlen(word); i < n; i++) {
-        char sum = (tolower(word[i]) - 97);
+        sum = (tolower(word[i]) - 97);
+        
         printf("%i",POINTS[sum]);
         // return sum;
         
